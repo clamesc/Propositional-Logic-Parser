@@ -1,0 +1,24 @@
+===================================================================
+     Practical 3 Questions by Claus Meschede [IMAT: 03667973]    
+===================================================================
+
+Question 4.1
+
+Compare the output from your function and the result you obtain by using pencil-and-paper derivation. How is the function differs from the approach we use in pencil-and-paper derivation?
+
+Answer:
+
+The implemented function checking the entailment indirectly prooves a statement by evaluating a subsidiary theorem. In contrast, checking entailment by hand usually involves deriving and comparing two solution sets with each other.
+
+
+
+Question 4.2.2
+
+Check your answer about what B and C are with the answer from pencil-and-paper derivation in exercise. Can you decide what A is? Is it true that if KB |= α, then it must be that KB |= ¬ α? Explain your answers.
+
+Answer:
+
+The answer about what B and C are conincides with the pencil-and-paper derivation.
+The nature of A cannot be deduced in this problem, because the knowledge base includes both interpretations for A. Therefore the KB neither entails "knight" nor "knave". 
+On the other hand, the given information is sufficient to deduce the nature of B as "knave" and C as "knight", because the KB only includes distinct solutions.
+In general, if a KB doesn't entail a sentence, it is not possible to infer that it entails the negated sentence. Entailment only comprises distinct solutions.
